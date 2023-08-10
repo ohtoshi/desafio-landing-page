@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+/* primeira seção */
+#primeira-secao {
+    background-color: #303030;
+    color: #fff;
+}
+
+#primeira-secao_titulo {
+    font-size: 60px;
+    font-weight: 600;
+    vertical-align: middle;
+    padding: 206px 0 20px 62px;
+}
+
+#primeira-secao_texto {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 0 147px 62px;
+}
+
+/* seção informativa */
+#secao-informativa {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-texto {
+    display: flex;
+    flex-direction: column;
+    margin: 96px 0 66px;
+}
+
+.texto-informativo_destaque {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.texto-informativo {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* seção carrossel de imagens */
+#secao-carrossel {
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+    margin: 82px 0 62px;
+}
+
+#secao-carrossel_texto {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 55px;
+}
+
+#titulo {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#texto {
+    max-width: 735px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.glider-contain {
+    width: auto;
+    margin: 0;
+}
+
+.secao-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 510px;
+    margin: 0;
+    
+    .image img {
+        border-radius: 30px;
+    }
+}
+
+.glider-prev,
+.glider-next {
+    top: 40%;
+}
+
+.glider-prev {
+    left: 20px;
+}
+
+.glider-next {
+    right: 20px;
+}
+
+/* seção formulário */
+#secao-formulario {
+    background-color: #303030;
+    text-align: center;
+    color: #fff;
+    padding-top: 92px;
+}
+
+#titulo-formulario {
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+
+input {
+    width: 508px;
+    height: 72px;
+    background-color: #EAECE5;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 19px;
+    font-size: 24px;
+}
+
+.placeholder-style::placeholder {
+    color: #000;
+    opacity: 0.3;
+    font-weight: 700;
+}
+
+#btn-formulario {
+    width: 286px;
+    height: 74px;
+    background-color: #C07212;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    margin: 56px 0 87px;
+    cursor: pointer;
+}
+
+#btn-formulario:hover {
+    background-color: #eb942a;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.7s;
+}

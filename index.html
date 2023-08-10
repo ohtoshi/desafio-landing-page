@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Desafio 1</title>
+</head>
+<body>
+    <!-- primeira seção -->
+    <div id="primeira-secao">
+        <h1 id="primeira-secao_titulo">Tradição em projetos de arquitetura</h1>
+        <p id="primeira-secao_texto">Arquitetura residencial e comercial.</p>
+    </div>
+    <!-- seção informativa -->
+    <div id="secao-informativa">
+        <div class="box-texto">
+            <p class="texto-informativo_destaque">850</p> 
+            <p class="texto-informativo">empreendimentos construídos</p> 
+        </div>
+        <div class="box-texto">
+            <p class="texto-informativo_destaque">40</p> 
+            <p class="texto-informativo">anos de mercado e experiência</p> 
+        </div>
+        <div class="box-texto">
+            <p class="texto-informativo_destaque">2,000,000</p> 
+            <p class="texto-informativo">m² em projetos construídos</p> 
+        </div>
+    </div>
+    <!-- seção carrossel com imagens -->
+    <div id="secao-carrossel">
+        <div id="secao-carrossel_texto">
+            <p id="titulo">Arquitetos com História e Experiência.</p>
+            <p id="texto">Nós realizamos desde 2002 projetos e gerenciamento de obras.
+                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo
+                como principal proposta transformar em realidade os sonhos de
+                seus clientes, criando projetos personalizados, unindo a tradição
+                e a modernidade em nossos projetos.
+            </p>
+        </div>
+        <div id="secao-carrossel_imgs" class="glider-contain">
+            <div class="secao-imagens glider">
+                <div class="image">
+                    <img src="/img/image 1.png" width="510" height="605" alt="">
+                </div>
+                <div class="image">
+                    <img src="/img/image 2.jpg" width="510" height="605" alt="">
+                </div>
+                <div class="image">
+                    <img src="/img/image 3.jpg" width="510" height="605" alt="">
+                </div>
+                <div class="image">
+                    <img src="/img/image 4.png" width="510" height="605" alt="">
+                </div>
+            </div>
+            <button aria-label="Previous" class="glider-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                    <g opacity="0.35">
+                        <rect width="26" height="26" rx="4" fill="#303030"/>
+                        <path d="M15 20L8 13L15 6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                </svg>
+            </button>
+            <button aria-label="Next" class="glider-next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                    <g opacity="0.35">
+                        <rect width="26" height="26" rx="4" fill="#303030"/>
+                        <path d="M10 6L17 13L10 20" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                </svg>
+            </button>
+            <div class="dots"></div>
+        </div>   
+    </div>
+                    
+    <div id="secao-formulario">
+        <h1 id="titulo-formulario">Conheça mais sobre nossos serviços:</h1>
+        <form action="https://api.sheetmonkey.io/form/vL4ce6tkV6sJCz4xysmL2X" method="post">
+            <input class="placeholder-style" type="text" placeholder="Nome" name="Name" required><br>
+            <input class="placeholder-style" type="email" name="Email" required placeholder="E-mail"><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button id="btn-formulario" type="submit">Fale Conosco</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
