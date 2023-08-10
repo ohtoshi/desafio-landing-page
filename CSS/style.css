@@ -50,6 +50,11 @@
     justify-content: center;
     gap: 62px;
     margin: 82px 0 62px;
+    padding: 0 10px;
+
+    @media screen and (max-width: 1280px) {
+        padding: 0 20px;
+    }
 }
 
 #secao-carrossel_texto {
@@ -63,6 +68,10 @@
     font-size: 40px;
     font-weight: 500;
     line-height: 20px;
+
+    @media screen and (max-width: 1281px) {
+        font-size: 30px;
+    }
 }
 
 #texto {
@@ -80,7 +89,7 @@
 .secao-imagens {
     display: flex;
     flex-wrap: wrap;
-    max-width: 510px;
+    max-width: 470px;
     margin: 0;
     
     .image img {
